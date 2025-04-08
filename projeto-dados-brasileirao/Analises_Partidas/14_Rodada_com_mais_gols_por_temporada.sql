@@ -38,4 +38,6 @@ from ranking
 
 where posicao = 1
 
-order by Temporada asc, gols_partida desc
+order by gols_partida desc, Temporada asc
+
+limit 10
