@@ -2,6 +2,8 @@
 
 Este repositório contém consultas SQL realizadas sobre uma base de dados do Campeonato Brasileiro de Futebol, com o objetivo de extrair **conclusões relevantes sobre clubes, jogadores, partidas e tendências** ao longo dos anos.
 
+![Capa - Análise de Dados do Campeonato Brasileiro](./imagens/Capa_Artigo_projeto_brasileirao.png)
+
 As consultas estão organizadas em subpastas por categoria, com foco em facilitar a navegação e a análise.
 
 ---
