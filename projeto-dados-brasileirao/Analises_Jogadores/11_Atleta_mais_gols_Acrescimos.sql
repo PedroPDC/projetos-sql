@@ -44,4 +44,6 @@ from ranking
 
 where posicao = 1 
 
-order by Temporada asc
+order by gols_acrescimos desc, Temporada asc
+
+limit 10
