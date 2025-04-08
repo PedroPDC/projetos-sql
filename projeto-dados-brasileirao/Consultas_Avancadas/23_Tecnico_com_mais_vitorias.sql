@@ -18,3 +18,5 @@ and tecnico_vencedor is not null
 group by tecnico_vencedor
 
 order by vitorias desc
+
+limit 10
