@@ -10,45 +10,45 @@ As consultas estão organizadas em subpastas por categoria, com foco em facilita
 
 | Categoria | Título da Query | Nº | Caminho |
 |-----------|-----------------|----|---------|
-| **Clubes e Jogos** | Mais vitórias como mandante | 01 | [`clubes-e-jogos/01_mais_vitorias_mandante.sql`](./clubes-e-jogos/01_mais_vitorias_mandante.sql) |
-| | Mais vitórias como visitante | 02 | [`clubes-e-jogos/02_mais_vitorias_visitante.sql`](./clubes-e-jogos/02_mais_vitorias_visitante.sql) |
-| | Vitórias mandante e visitante | 03 | [`clubes-e-jogos/03_vitorias_mandante_visitante.sql`](./clubes-e-jogos/03_vitorias_mandante_visitante.sql) |
-| | Maior média de posse de bola | 04 | [`clubes-e-jogos/04_maior_media_posse.sql`](./clubes-e-jogos/04_maior_media_posse.sql) |
-| | Finalizações por ano | 05 | [`clubes-e-jogos/05_finalizacoes_por_ano.sql`](./clubes-e-jogos/05_finalizacoes_por_ano.sql) |
-| | Clubes mais indisciplinados | 06.00 | [`clubes-e-jogos/06_00_clubes_indisciplinados.sql`](./clubes-e-jogos/06_00_clubes_indisciplinados.sql) |
-| | Mais cartões vermelhos | 06.01 | [`clubes-e-jogos/06_01_cartoes_vermelhos.sql`](./clubes-e-jogos/06_01_cartoes_vermelhos.sql) |
-| | Mais cartões amarelos | 06.02 | [`clubes-e-jogos/06_02_cartoes_amarelos.sql`](./clubes-e-jogos/06_02_cartoes_amarelos.sql) |
-| | Gols mandante, visitante e total | 07 | [`clubes-e-jogos/07_gols_mandante_visitante.sql`](./clubes-e-jogos/07_gols_mandante_visitante.sql) |
+| **Clubes e Jogos** | Mais vitórias como mandante | 01 | [`clubes-e-jogos/01_mais_vitorias_mandante.sql`](./Clubes_e_Jogos/01_Mais_Vitorias_Como_Mandante.sql) |
+| | Mais vitórias como visitante | 02 | [`clubes-e-jogos/02_mais_vitorias_visitante.sql`](./Clubes_e_Jogos/02_Mais_Vitorias_Como_Visitante.sql) |
+| | Vitórias mandante e visitante | 03 | [`clubes-e-jogos/03_vitorias_mandante_visitante.sql`](./Clubes_e_Jogos/03_Vitorias_Mandante_e_Vitorias_Visitante.sql) |
+| | Maior média de posse de bola | 04 | [`clubes-e-jogos/04_maior_media_posse.sql`](./Clubes_e_Jogos/04_Maior_Media_Posse_de_Bola.sql) |
+| | Finalizações por ano | 05 | [`clubes-e-jogos/05_finalizacoes_por_ano.sql`](./Clubes_e_Jogos/05_Maior_Finalizacoes_por_Ano.sql) |
+| | Clubes mais indisciplinados | 06.00 | [`clubes-e-jogos/06_00_clubes_indisciplinados.sql`](./Clubes_e_Jogos/06_00_Clubes_mais_Indisciplinados.sql) |
+| | Mais cartões vermelhos | 06.01 | [`clubes-e-jogos/06_01_cartoes_vermelhos.sql`](./Clubes_e_Jogos/06_01_Mais_Cartoes_Vermelhos.sql) |
+| | Mais cartões amarelos | 06.02 | [`clubes-e-jogos/06_02_cartoes_amarelos.sql`](./Clubes_e_Jogos/06_02_Mais_Cartoes_Amarelos.sql) |
+| | Gols mandante, visitante e total | 07 | [`clubes-e-jogos/07_gols_mandante_visitante.sql`](./Clubes_e_Jogos/07_Mais_Gols_Marcados_Mandante_e_Visitante.sql) |
 
 | Categoria | Título da Query | Nº | Caminho |
 |----------|------------------|----|---------|
-| **Análise de Jogadores** | Jogadores indisciplinados | 08 | [`analise-jogadores/08_jogadores_indisciplinados.sql`](./analise-jogadores/08_jogadores_indisciplinados.sql) |
-| | Artilheiro por ano | 09 | [`analise-jogadores/09_artilheiro_por_ano.sql`](./analise-jogadores/09_artilheiro_por_ano.sql) |
-| | Gols de pênalti por temporada | 10 | [`analise-jogadores/10_gols_penalti_por_temporada.sql`](./analise-jogadores/10_gols_penalti_por_temporada.sql) |
-| | Gols nos acréscimos | 11 | [`analise-jogadores/11_gols_acrescimos.sql`](./analise-jogadores/11_gols_acrescimos.sql) |
+| **Análise de Jogadores** | Jogadores indisciplinados | 08 | [`analise-jogadores/08_jogadores_indisciplinados.sql`](./Analises_Jogadores/08_Jogadores_Indisciplinados.sql) |
+| | Artilheiro por ano | 09 | [`analise-jogadores/09_artilheiro_por_ano.sql`](./Analises_Jogadores/09_Artilheiro_por_Ano.sql) |
+| | Gols de pênalti por temporada | 10 | [`analise-jogadores/10_gols_penalti_por_temporada.sql`](./Analises_Jogadores/10_gols_penalti_por_temporada.sql) |
+| | Gols nos acréscimos | 11 | [`analise-jogadores/11_gols_acrescimos.sql`](./Analises_Jogadores/11_Atleta_mais_gols_Acrescimos.sql) |
 
 | Categoria | Título da Query | Nº | Caminho |
 |----------|------------------|----|---------|
-| **Análise de Partidas** | Partidas com mais gols | 12 | [`analise-partidas/12_partidas_com_mais_gols.sql`](./analise-partidas/12_partidas_com_mais_gols.sql) |
-| | Arenas com mais gols | 13 | [`analise-partidas/13_arenas_mais_gols.sql`](./analise-partidas/13_arenas_mais_gols.sql) |
-| | Rodadas com mais gols | 14 | [`analise-partidas/14_rodada_mais_gols.sql`](./analise-partidas/14_rodada_mais_gols.sql) |
-| | Maiores goleadas | 15 | [`analise-partidas/15_maiores_goleadas.sql`](./analise-partidas/15_maiores_goleadas.sql) |
-| | Empates sem gols por temporada | 16 | [`analise-partidas/16_empates_sem_gols.sql`](./analise-partidas/16_empates_sem_gols.sql) |
+| **Análise de Partidas** | Partidas com mais gols | 12 | [`analise-partidas/12_partidas_com_mais_gols.sql`](./Analises_Partidas/12_Partidas_com_mais_gols_marcados.sql) |
+| | Arenas com mais gols | 13 | [`analise-partidas/13_arenas_mais_gols.sql`](./Analises_Partidas/13_Arenas_com_mais_gols.sql) |
+| | Rodadas com mais gols | 14 | [`analise-partidas/14_rodada_mais_gols.sql`](./Analises_Partidas/14_Rodada_com_mais_gols_por_temporada.sql) |
+| | Maiores goleadas | 15 | [`analise-partidas/15_maiores_goleadas.sql`](./Analises_Partidas/15_maiores_goleadas.sql) |
+| | Empates sem gols por temporada | 16 | [`analise-partidas/16_empates_sem_gols.sql`](./Analises_Partidas/16_Partidas_empatadas_sem_gols_por_temporada.sql) |
 
 | Categoria | Título da Query | Nº | Caminho |
 |----------|------------------|----|---------|
-| **Padrões e Tendências** | Tendência de gols ao longo dos anos | 17 | [`padroes-tendencias/17_tendencia_gols.sql`](./padroes-tendencias/17_tendencia_gols.sql) |
-| | Evolução da posse de bola | 18 | [`padroes-tendencias/18_evolucao_posse.sql`](./padroes-tendencias/18_evolucao_posse.sql) |
-| | Precisão dos passes ao longo dos anos | 19 | [`padroes-tendencias/19_precisao_passes.sql`](./padroes-tendencias/19_precisao_passes.sql) |
-| | Relação entre faltas e cartões | 20 | [`padroes-tendencias/20_faltas_cartoes.sql`](./padroes-tendencias/20_faltas_cartoes.sql) |
-| | Aproveitamento de pontos por temporada | 21 | [`padroes-tendencias/21_aproveitamento_pontos.sql`](./padroes-tendencias/21_aproveitamento_pontos.sql) |
+| **Padrões e Tendências** | Tendência de gols ao longo dos anos | 17 | [`padroes-tendencias/17_tendencia_gols.sql`](./Padroes_e_Tendencias/17_Aumento_ou_Reducao_Gols_por_Temporada.sql) |
+| | Evolução da posse de bola | 18 | [`padroes-tendencias/18_evolucao_posse.sql`](./Padroes_e_Tendencias/18_Posse_de_bola_media_por_Temporada.sql) |
+| | Precisão dos passes ao longo dos anos | 19 | [`padroes-tendencias/19_precisao_passes.sql`](./Padroes_e_Tendencias/19_Precisao_dos_passes_por_temporada.sql) |
+| | Relação entre faltas e cartões | 20 | [`padroes-tendencias/20_faltas_cartoes.sql`](./Padroes_e_Tendencias/20_Numero_de_faltas_vs_cartoes.sql) |
+| | Aproveitamento de pontos por temporada | 21 | [`padroes-tendencias/21_aproveitamento_pontos.sql`](./Padroes_e_Tendencias/21_Times_com_melhor_aproveitamento_de_pontos.sql) |
 
 | Categoria | Título da Query | Nº | Caminho |
 |----------|------------------|----|---------|
-| **Consultas Avançadas** | Média de gols por partida por temporada | 22 | [`consultas-avancadas/22_media_gols_por_temporada.sql`](./consultas-avancadas/22_media_gols_por_temporada.sql) |
-| | Técnico com mais vitórias | 23 | [`consultas-avancadas/23_tecnico_mais_vitorias.sql`](./consultas-avancadas/23_tecnico_mais_vitorias.sql) |
-| | Minutos com mais gols | 24 | [`consultas-avancadas/24_minutos_com_mais_gols.sql`](./consultas-avancadas/24_minutos_com_mais_gols.sql) |
-| | Taxa de conversão de chutes em gols | 25 | [`consultas-avancadas/25_taxa_conversao_chutes.sql`](./consultas-avancadas/25_taxa_conversao_chutes.sql) |
+| **Consultas Avançadas** | Média de gols por partida por temporada | 22 | [`consultas-avancadas/22_media_gols_por_temporada.sql`](./Consultas_Avancadas/22_Media_gols_por_partida_Temporada.sql) |
+| | Técnico com mais vitórias | 23 | [`consultas-avancadas/23_tecnico_mais_vitorias.sql`](./Consultas_Avancadas/23_Tecnico_com_mais_vitorias.sql) |
+| | Minutos com mais gols | 24 | [`consultas-avancadas/24_minutos_com_mais_gols.sql`](./Consultas_Avancadas/24_Minutos_com_mais_gols.sql) |
+| | Taxa de conversão de chutes em gols | 25 | [`consultas-avancadas/25_taxa_conversao_chutes.sql`](./Consultas_Avancadas/25_Taxa_de_conversao_de_chutes_em_gols.sql) |
 
 ---
 
@@ -313,4 +313,10 @@ Resultado:
 ![Conversão de chutes em gols](./imagens/25_taxa_de_conversao_de_chutes_em_gols.PNG)
 
 ---
+## Conecte-se comigo
+- [Gmail](mailto:0901dantaspedro@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/pedro-paulo-dantas-costa/)
+- [Portfolio](https://pedropdc.github.io/portfolio/)
+- [Medium](https://www.medium.com/@pedropdc/)
 
+---
