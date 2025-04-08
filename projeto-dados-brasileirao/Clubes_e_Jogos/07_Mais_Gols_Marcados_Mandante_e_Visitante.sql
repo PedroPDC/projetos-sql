@@ -36,3 +36,5 @@ full join gols_como_visitante as t2
 on t1.mandante = t2.visitante
 
 order by total_gols desc
+
+limit 10
