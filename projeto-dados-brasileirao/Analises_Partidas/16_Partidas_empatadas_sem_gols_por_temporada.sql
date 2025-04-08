@@ -24,5 +24,6 @@ select
 
 from partidas_empatadas
 
-order by Temporada asc, empates_zerados desc
+order by empates_zerados desc, Temporada asc
 
+limit 10
