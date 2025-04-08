@@ -42,6 +42,6 @@ select
 from ranking
 
 where posicao = 1
-and finalizacoes_totais > 0
+and finalizacoes_totais > 80
 
 order by Temporada
