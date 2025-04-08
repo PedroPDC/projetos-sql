@@ -20,6 +20,10 @@ left join tb_estatisticas as t2
 on t1.ID = t2.partida_id
 
 where t2.faltas > 0
+and Temporada <> '2014'
 
 group by Temporada, t2.clube
 
+order by cartoes_por_falta desc
+
+limit 10
