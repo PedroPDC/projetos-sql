@@ -1,0 +1,56 @@
+TABELAS -> cartoes, estatisticas, brasileirao, gols
+
+Desempenho de Clubes e Jogos
+    1. Quais times mais venceram partidas como mandante e como visitante ao longo dos anos?
+
+    2. Qual clube tem a maior média de posse de bola por temporada?
+
+    3. Quais clubes tiveram o maior número de finalizações em uma única temporada?
+
+    4. Quais clubes receberam mais cartões vermelhos e amarelos em cada temporada?
+
+    5. Qual é o clube com mais gols marcados como mandante e visitante em toda a base?
+
+Análise de Jogadores
+    6. Quais jogadores receberam mais cartões amarelos e vermelhos ao longo dos anos?
+
+    7. Quais jogadores fizeram mais gols em cada temporada?
+
+    8. Quem marcou mais gols de pênalti e de falta ao longo dos anos?
+
+    9. Quais atletas participaram de mais partidas?
+
+    10. Qual jogador fez mais gols nos acréscimos do segundo tempo?
+
+Análise de Partidas
+    11. Quais partidas tiveram mais gols marcados no período analisado?
+
+    12. Em quais arenas houve mais gols?
+
+    13. Qual foi a rodada com o maior número de gols em cada ano?
+
+    14. Qual foi a maior goleada do Campeonato Brasileiro entre 2003 e 2023?
+
+    15. Quantas partidas terminaram empatadas sem gols por temporada?
+
+Padrões e Tendências
+    16. Existe alguma tendência de aumento ou redução no número de gols ao longo dos anos?
+
+    17. Como a posse de bola média dos times evoluiu ao longo dos anos?
+
+    18. A precisão dos passes dos clubes tem melhorado ao longo das temporadas?
+
+    19. Há alguma relação entre número de faltas cometidas e número de cartões recebidos por um time?
+
+    20. Quais times tiveram melhor aproveitamento (%) de pontos ao longo das temporadas?
+
+Consultas mais avançadas
+    21. Qual é a média de gols por partida em cada temporada?
+
+    22. Qual técnico venceu mais partidas no período analisado?
+
+    23. Quais são os minutos em que mais ocorrem gols?
+
+    24. Quais times marcaram mais gols de cabeça?
+
+    25. Qual time tem a maior taxa de conversão de chutes em gols?
