@@ -1,0 +1,75 @@
+TABELAS 
+
+tb_brands – Marcas dos produtos
+
+tb_categories – Categorias dos produtos
+
+tb_customers – Clientes
+
+tb_order_items – Itens dos pedidos
+
+tb_orders – Pedidos
+
+tb_products – Produtos
+
+tb_staffs – Funcionários
+
+tb_stocks – Estoques
+
+tb_stores – Lojas
+
+Categoria: Vendas
+    1. Qual foi o faturamento total da loja no período?
+
+    2. Quais os 10 produtos mais vendidos em quantidade?
+
+    3. Quais os 10 produtos que mais geraram receita?
+
+    4. Qual foi o ticket médio por pedido?
+
+    5. Quais lojas venderam mais em valor total?
+
+    6. Qual foi a evolução das vendas ao longo do tempo (mês a mês)?
+
+    7. Qual o percentual de desconto médio aplicado nas vendas?
+
+Categoria: Clientes
+    8. Quais os estados com mais clientes ativos?
+
+    9. Quem são os 10 clientes que mais compraram (valor)?
+
+    10. Qual a média de pedidos por cliente?
+
+    11. Quantos clientes únicos compraram em cada loja?
+
+    12. Há estados que concentram mais clientes VIP (os que compraram acima da média)?
+
+Categoria: Produtos
+    13. Qual a distribuição dos produtos por marca?
+
+    14. Quais categorias possuem maior variedade de produtos?
+
+    15. Qual a faixa de preço média por categoria?
+
+    16. Quais produtos têm o maior markup (diferença entre preço e desconto aplicado)?
+
+Categoria: Funcionários e Lojas
+    17. Quais funcionários participaram de mais vendas?
+
+    18. Qual loja tem maior estoque em quantidade?
+
+    19. Qual loja tem maior valor de estoque parado?
+
+    20. Existe alguma correlação entre o número de funcionários e o volume de vendas da loja?
+
+Categoria: Tempo e Sazonalidade
+    21. Quais são os meses com maior volume de vendas?
+
+    22. Qual o desempenho médio das vendas por dia da semana?
+
+    23. As vendas aumentam em alguma estação do ano (primavera, verão etc.)?
+
+Categoria: Indicadores Financeiros
+    24. Qual o valor médio de desconto aplicado por categoria?
+
+    25. Quais produtos mais vendidos com desconto e seu impacto na receita total?
