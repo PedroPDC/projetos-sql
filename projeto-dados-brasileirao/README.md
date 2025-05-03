@@ -4,6 +4,10 @@ Este repositório contém consultas SQL realizadas sobre uma base de dados do Ca
 
 ![Capa - Análise de Dados do Campeonato Brasileiro](./imagens/Capa_Artigo_projeto_brasileirao.png)
 
+Link para o dataset: [DATASET - BRASILEIRÃO](https://www.kaggle.com/datasets/adaoduque/campeonato-brasileiro-de-futebol)
+
+---
+
 As consultas estão organizadas em subpastas por categoria, com foco em facilitar a navegação e a análise.
 
 ---
