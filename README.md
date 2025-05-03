@@ -7,6 +7,7 @@ Este repositório reúne meus projetos desenvolvidos com SQL, aplicando conceito
 | Projeto                      | Descrição                                                    |
 |-----------------------------|---------------------------------------------------------------|
 | [campeonatos-brasileiros](./projeto-dados-brasileirao/) | Análises do Brasileirão com dados de 2003 a 2023 |
+| [analise-bike-store](./projeto-bike-store/) | Análise Comercial da Bike Store |
 
 ---
 
