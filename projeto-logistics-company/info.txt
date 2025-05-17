@@ -1,0 +1,107 @@
+Criação de Esquema de Banco de Dados e Relacionamentos de Tabelas para Dados de uma Empresa de Logística
+Resumo
+Logística é a função de suporte de uma organização, garantindo o objeto certo, no lugar certo, no momento certo. 
+O projeto foi desenvolvido considerando os diversos requisitos da logística, como controle de fluxo de recursos, custos, e detalhes dos bens a serem entregues.
+
+Descrição do Problema
+A empresa de logística atua nos setores internacional e doméstico. 
+A gestão logística considera todos os fatores que impactam o custo e visa atender às exigências do cliente. 
+O sistema deve integrar fornecedores, fabricantes, atividades de importação/exportação e rastreamento de entregas, permitindo atualização de status por entregadores e chefes de centro.
+
+Escopo
+O modo como a empresa entrega produtos/serviços é essencial para a imagem da organização. 
+Isso inclui desde a movimentação física eficiente até a qualidade percebida em serviços intangíveis, 
+com impacto no comércio doméstico e internacional.
+
+Definições das Tabelas
+Employee_Details (Detalhes do Funcionário)
+
+Emp_ID: ID do funcionário (PK)
+
+Emp_NAME: Nome
+
+Emp_BRANCH: Filial
+
+Emp_DESIGNATION: Cargo
+
+Emp_ADDR: Endereço
+
+Emp_CONT_NO: Telefone
+
+Membership (Associação)
+
+M_ID: ID da associação (PK)
+
+START_DATE: Data de início
+
+END_DATE: Data de fim
+
+Customer (Cliente)
+
+Cust_ID: ID do cliente (PK)
+
+Cust_NAME: Nome
+
+Cust_EMAIL_ID: E-mail
+
+Cust_CONT_NO: Telefone
+
+Cust_ADDR: Endereço
+
+Cust_TYPE: Tipo (Atacado, Varejo, Interno)
+
+Membership_M_ID: ID da associação (FK)
+
+Payment_Details (Detalhes de Pagamento)
+
+PAYMENT_ID: ID do pagamento (PK)
+
+AMOUNT: Valor pago
+
+PAYMENT_STATUS: Status (Pago / Não Pago)
+
+PAYMENT_DATE: Data do pagamento
+
+PAYMENT_MODE: Modo (COD / Cartão)
+
+Shipment_SH_ID: ID da remessa (FK)
+
+Shipment_Client_C_ID: ID do cliente (FK)
+
+Shipment_Details (Detalhes da Remessa)
+
+SD_ID: ID da remessa (PK)
+
+SD_CONTENT: Conteúdo
+
+SD_DOMAIN: Domínio (Internacional / Doméstico)
+
+SD_TYPE: Tipo de serviço (Expresso / Regular)
+
+SD_WEIGHT: Peso
+
+SD_CHARGES: Taxas
+
+SD_ADDR: Endereço de origem
+
+DS_ADDR: Endereço de destino
+
+Customer_Cust_ID: ID do cliente (FK)
+
+Status
+
+CURRENT_ST: Status atual
+
+SENT_DATE: Data de envio
+
+DELIVERY_DATE: Data de entrega
+
+SH_ID: ID da remessa (PK)
+
+Employee_Manages_Shipment (Relação Funcionário-Remessa)
+
+Employee_E_ID: ID do funcionário (FK)
+
+Shipment_SH_ID: ID da remessa (FK)
+
+Status_SH_ID: ID da remessa da tabela Status (FK)
