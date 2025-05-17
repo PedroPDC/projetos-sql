@@ -1,0 +1,41 @@
+1. clientes_por_tipo.sql
+
+2. clientes_por_status_pagamento.sql
+
+3. clientes_por_modo_pagamento.sql
+
+4. clientes_por_dominio_envio.sql
+
+5. clientes_por_tipo_servico.sql
+
+6. funcionarios_por_cargo.sql
+
+7. funcionarios_por_filial.sql
+
+8. clientes_associacao_maior_10_anos.sql
+
+9. media_pagamento_cod_por_tipo_cliente.sql
+
+10. media_pagamento_modo_pagamento.sql
+
+11. media_peso_envio_exclui_conteudo_h.sql
+
+12. funcionarios_filial_ny.sql
+
+13. total_clientes_por_tipo.sql
+
+14. datas_associacao_clientes_pago.sql
+
+15. clientes_cartao_servico_regular.sql
+
+16. media_peso_por_dominio.sql
+
+17. envio_maior_taxa_cliente.sql
+
+18. envios_expressos_nao_entregues.sql
+
+19. clientes_nao_pagaram_ca.sql
+
+20. status_data_entrega_por_entregador.sql
+
+21. datas_associacao_nao_entregues.sql
