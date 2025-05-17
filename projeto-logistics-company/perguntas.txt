@@ -1,0 +1,58 @@
+tabelas
+
+tb_employee_details -> detalhes dos funcionarios
+
+tb_membership -> associação
+
+tb_customer -> cliente
+
+tb_payment_details -> detalhes de pagamento
+
+tb_shipment_details -> detalhes da remessa
+
+tb_status -> status
+
+tb_employee_manages_shipment -> relação funcionario-remessa
+
+    
+    1. Contar a base de clientes com base no tipo de cliente para identificar as preferências atuais dos clientes e ordenar em ordem decrescente.
+
+    2. Contar a base de clientes com base no status de pagamento em ordem decrescente.
+
+    3. Contar a base de clientes com base no modo de pagamento em ordem decrescente.
+
+    4. Contar os clientes de acordo com o domínio de envio em ordem decrescente.
+
+    5. Contar os clientes de acordo com o tipo de serviço em ordem decrescente.
+
+    6. Explorar a contagem de funcionários com base na designação (cargo) em ordem decrescente de IDs.
+
+    7. Contagem de funcionários por filial, para eficiência nas entregas, em ordem decrescente.
+
+    8. Encontrar C_ID, M_ID e tempo de adesão dos clientes cuja associação tem mais de 10 anos.
+
+    9. Considerar o valor médio do pagamento com base no tipo de cliente que utiliza o modo de pagamento “COD” (pagamento na entrega), em ordem decrescente.
+
+    10. Calcular o valor médio de pagamento com base no modo de pagamento onde a data de pagamento não é nula.
+
+    11. Calcular o peso médio das remessas com base no status de pagamento, onde o conteúdo da remessa não começa com “H”.
+
+    12. Recuperar os nomes e cargos de todos os funcionários da filial “NY”.
+
+    13. Calcular o número total de clientes em cada tipo de cliente (Atacado, Varejo, Produtos Internos).
+
+    14. Encontrar as datas de início e fim da associação dos clientes com status de pagamento “Pago”.
+
+    15. Listar os clientes que fizeram “Pagamento com Cartão” e têm tipo de serviço “Regular”.
+
+    16. Calcular o peso médio das remessas para cada domínio (Internacional e Doméstico).
+
+    17. Identificar a remessa com as maiores taxas e o nome do cliente correspondente.
+
+    18. Contar o número de remessas com tipo de serviço “Expresso” que ainda não foram entregues.
+
+    19. Listar os clientes com status de pagamento “Não Pago” e que estão baseados na “CA” (Califórnia).
+
+    20. Recuperar o status atual e a data de entrega das remessas gerenciadas por funcionários com o cargo “Entregador”.
+
+    21. Encontrar as datas de início e fim da associação dos clientes cujo “Status Atual” é “Não Entregue”.
