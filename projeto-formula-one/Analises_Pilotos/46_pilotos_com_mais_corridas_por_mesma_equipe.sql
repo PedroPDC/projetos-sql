@@ -1,0 +1,24 @@
+/*
+Pilotos que mais disputaram corridas por uma mesma equipe
+*/
+
+select 
+    concat(t3.forename, ' ', t3.surname) as Piloto,
+    t4.name as Equipe,
+    count(t2.raceId) as GPs
+
+from tb_results as t1
+
+left join tb_races as t2
+on t1.raceId = t2.raceId
+
+left join tb_drivers as t3
+on t1.driverId = t3.driverId
+
+left join tb_constructors as t4
+on t1.constructorId = t4.constructorId
+
+group by Piloto, Equipe
+order by GPs desc
+
+limit 10
