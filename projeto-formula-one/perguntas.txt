@@ -1,0 +1,89 @@
+Análise de Pilotos (Drivers)
+
+    1. Quantos pilotos únicos já participaram de corridas de Fórmula 1?
+
+    2. Qual piloto tem o maior número de vitórias em toda a história?
+
+    3. Quais são os 10 pilotos com mais pódios (1°, 2° e 3° lugar)?
+
+    4. Qual a média de idade dos pilotos vencedores em cada temporada? (requer uso de JOIN com drivers e data de nascimento)
+
+    5. Quais pilotos correram por mais de 3 equipes diferentes?
+
+    6. Quantas nacionalidades distintas de pilotos já participaram da F1?
+
+Análise de Equipes (Constructors)
+
+    7. Quais são as equipes com mais vitórias na história da F1?
+
+    8. Qual equipe obteve mais poles positions?
+
+    9. Qual equipe teve a melhor média de posição final na temporada de 2019?
+
+    10. Liste as equipes que já venceram corridas em pelo menos 3 décadas diferentes.
+
+Corridas e Resultados
+
+    11. Qual foi a corrida com mais abandonos (DNFs)?
+
+    12. Quais pilotos terminaram uma corrida em primeiro lugar largando da posição mais distante?
+
+    13. Qual é o circuito com mais corridas realizadas?
+
+    14. Liste as 5 corridas mais emocionantes (com maior número de ultrapassagem – variação entre grid de largada e posição final)
+
+    15. Qual piloto ganhou mais GPs em casa (corridas no país de origem)?
+
+Análises com Funções de Janela (Window Functions)
+
+    16. Para cada piloto, calcule a média de pontos por corrida, ordenando do maior para o menor.
+
+    17. Use RANK() para listar os 5 melhores pilotos em cada temporada (com base nos pontos acumulados)
+
+    18. Mostre a pontuação acumulada corrida a corrida pelo campeão de 2020.
+
+    19. Liste os 3 pilotos mais consistentes (menor variação de posição de largada para chegada), com pelo menos 30 corridas.
+
+    20. Para cada corrida, exiba o piloto que fez a volta mais rápida.
+
+
+Temporadas (Seasons)
+
+    21. Quantas corridas foram realizadas por temporada?
+
+    22. Qual temporada teve mais vitórias de uma única equipe?
+
+    23. Quantas estreias de pilotos ocorreram por temporada?
+
+    24. Qual temporada teve o menor número de abandonos?
+
+    25. Liste o número de vitórias por temporada do campeão daquele ano.
+
+
+Avançado - CTEs, Subqueries, Lógica complexa
+
+    26. Usando CTEs, liste a evolução média de idade dos pilotos vencedores ao longo das décadas.
+
+    27. Identifique pilotos que venceram corridas, mas nunca foram campeões mundiais.
+
+    28. Liste as corridas onde o vencedor largou de fora do top 10.
+
+    29. Usando CASE, classifique as corridas por nível de competitividade:
+
+        * Alta: diferença de menos de 10s entre 1° e 5°
+        * Média: entre 10s e 30s
+        * Baixa: mais de 30s
+    30. Liste os pilotos que marcaram pontos em todas as corridas de uma mesma temporada.
+
+Extras para visualizações e Power BI
+
+    31. Quantidade de vitórias por país ao longo dos anos.
+    
+    32. Melhor volta por circuito – qual foi o tempo e quem fez?
+    
+    33. Média de posições finais por equipe em cada temporada.
+    
+    34. Perfomance de cada equipe por temporada (ex: pontos totais, média por corrida).
+    
+    35. Tabela classificatória final dos pilotos por Temporada.
+    
