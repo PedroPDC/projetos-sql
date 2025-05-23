@@ -1,0 +1,83 @@
+Analise de Pilotos (Drivers)
+01_total_pilotos_unicos.sql
+
+02_piloto_com_mais_vitorias.sql
+
+03_top10_pilotos_mais_podios.sql
+
+04_media_idade_vencedores_por_temporada.sql
+
+05_pilotos_multiplas_equipes.sql
+
+06_total_nacionalidades_pilotos.sql
+
+
+Analise de Equipes (Constructors)
+08_equipes_com_mais_vitorias.sql
+
+09_equipes_com_mais_poles.sql
+
+10_melhor_media_posicao_equipes_2019.sql
+
+11_equipes_com_vitorias_em_varias_decadas.sql
+
+
+Corridas e Resultados
+12_corrida_com_mais_abandonos.sql
+
+13_vitorias_mais_improvaveis_posicao_largada.sql
+
+14_circuito_com_mais_corridas.sql
+
+15_corridas_com_mais_ultrapassagens.sql
+
+16_pilotos_com_mais_vitorias_em_casa.sql
+
+
+Funções de Janela (Window Functions)
+17_media_pontos_por_piloto.sql
+
+18_top5_pilotos_por_temporada_rank.sql
+
+19_pontuacao_acumulada_campeao_2020.sql
+
+20_pilotos_mais_consistentes.sql
+
+21_piloto_com_volta_mais_rapida_por_corrida.sql
+
+
+Temporada (Seasons)
+22_qtd_corridas_por_temporada.sql
+
+23_maior_nro_vitorias_equipe_temporada.sql
+
+24_estreiantes_por_temporada.sql
+
+25_temporada_com_menos_abandonos.sql
+
+26_vitorias_campeao_por_temporada.sql
+
+
+Avançado - CTEs, Subqueries, CASE
+27_evolucao_idade_vencedores_cte.sql
+
+28_pilotos_com_vitorias_sem_titulo.sql
+
+29_vitorias_fora_top10_largada.sql
+
+30_classificacao_competitividade_corridas.sql
+
+31_pilotos_com_pontos_em_todas_corridas.sql
+
+
+Extras para visualizações
+32_vitorias_por_pais_ao_longo_dos_anos.sql
+
+33_melhor_volta_por_circuito.sql
+
+34_media_posicoes_finais_equipes.sql
+
+35_performance_equipes_por_temporada.sql
+
+36_classificacao_final_pilotos_por_temporada.sql
+
