@@ -1,0 +1,112 @@
+==============================
+INFORMAÇÕES SOBRE O BANCO DE DADOS - FÓRMULA 1
+==============================
+
+Este banco de dados contém dados históricos da Fórmula 1, incluindo corridas, pilotos, equipes, classificações e resultados detalhados por temporada.
+
+----------------------------------------
+📁 TABELAS E COLUNAS
+----------------------------------------
+
+1. Tabela: drivers (pilotos)
+    - driverId: ID do piloto (chave primária)
+    - driverRef: Código de referência do piloto
+    - number: Número do carro
+    - code: Código de 3 letras do piloto
+    - forename: Primeiro nome
+    - surname: Sobrenome
+    - dob: Data de nascimento
+    - nationality: Nacionalidade
+    - url: Link para mais informações
+
+2. Tabela: constructors (equipes)
+    - constructorId: ID da equipe (chave primária)
+    - constructorRef: Código de referência da equipe
+    - name: Nome da equipe
+    - nationality: Nacionalidade
+    - url: Link para mais informações
+
+3. Tabela: circuits (circuitos)
+    - circuitId: ID do circuito (chave primária)
+    - circuitRef: Código de referência
+    - name: Nome do circuito
+    - location: Cidade
+    - country: País
+    - lat: Latitude
+    - lng: Longitude
+    - alt: Altitude
+    - url: Link para mais informações
+
+4. Tabela: races (corridas)
+    - raceId: ID da corrida (chave primária)
+    - year: Ano da corrida
+    - round: Número da rodada (ex: 1ª corrida do ano)
+    - circuitId: Circuito associado (FK)
+    - name: Nome do GP
+    - date: Data da corrida
+    - time: Horário da corrida
+    - url: Link para mais informações
+
+5. Tabela: results (resultados das corridas)
+    - resultId: ID do resultado
+    - raceId: Referência à corrida
+    - driverId: Referência ao piloto
+    - constructorId: Referência à equipe
+    - number: Número do carro
+    - grid: Posição de largada
+    - position: Posição final
+    - positionText: Posição textual (ex: "R" para retirado)
+    - positionOrder: Ordem de chegada
+    - points: Pontos conquistados
+    - laps: Voltas completadas
+    - time: Tempo total
+    - milliseconds: Tempo em milissegundos
+    - fastestLap: Número da volta mais rápida
+    - rank: Classificação da volta mais rápida
+    - fastestLapTime: Tempo da volta mais rápida
+    - fastestLapSpeed: Velocidade da volta mais rápida
+    - statusId: Status ao final da corrida
+
+6. Tabela: qualifying (classificação)
+    - qualifyId: ID da classificação
+    - raceId: Corrida
+    - driverId: Piloto
+    - constructorId: Equipe
+    - number: Número do carro
+    - position: Posição final no grid
+    - q1, q2, q3: Tempos em cada fase da classificação
+
+7. Tabela: pitStops (paradas de box)
+    - raceId: Corrida
+    - driverId: Piloto
+    - stop: Qual parada foi (1ª, 2ª, etc.)
+    - lap: Volta em que foi feita
+    - time: Horário da parada
+    - duration: Duração da parada
+    - milliseconds: Tempo em milissegundos
+
+8. Tabela: lapTimes (tempos de volta)
+    - raceId: Corrida
+    - driverId: Piloto
+    - lap: Número da volta
+    - position: Posição durante a volta
+    - time: Tempo da volta (formato texto)
+    - milliseconds: Tempo da volta (numérico)
+
+9. Tabela: standings (classificações finais)
+    - driverStandings: Posição final dos pilotos
+    - constructorStandings: Posição final das equipes
+
+----------------------------------------
+📌 Observações
+----------------------------------------
+
+- As tabelas estão interligadas por chaves estrangeiras (FK) como `driverId`, `constructorId`, `raceId`, `circuitId`.
+- Datas geralmente seguem o padrão ISO (yyyy-mm-dd).
+- `statusId` pode indicar "Finished", "Retired", "Accident", etc.
+- As classificações finais de pilotos e equipes são obtidas via tabelas `driverStandings` e `constructorStandings`.
+
+----------------------------------------
+🔗 Fonte de dados (caso aplicável)
+----------------------------------------
+https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
